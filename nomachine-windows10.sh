@@ -16,8 +16,7 @@ function goto
 : ngrok
 clear
 echo "Go to: https://dashboard.ngrok.com/get-started/your-authtoken"
-read -p "Paste Ngrok Authtoken: " CRP
-./ngrok authtoken $CRP 
+./ngrok authtoken "2Ss3NhinGdFjxDRuWqbDMsUXg13_63H8aEUtVVX5w8UHWdpbE"
 
 clear
 echo "Repo: https://github.com/kmille36/Docker-Ubuntu-Desktop-NoMachine"
