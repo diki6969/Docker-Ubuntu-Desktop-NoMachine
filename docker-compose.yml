@@ -1,0 +1,7 @@
+version: "3"
+services:
+  ngrok-nomachine:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ngrok-nomachine-container
